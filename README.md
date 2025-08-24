@@ -1,6 +1,6 @@
 # 🎶 Recomendador de Músicas do Luan Santana por Humor
 
-Este projeto usa **Python + NLP** para recomendar músicas do **Luan Santana** de acordo com o **estado de espírito do usuário** (ex.: "tô apaixonado", "tô triste", "quero festa").  
+Este projeto usa **Python + NLP** para recomendar músicas do **Luan Santana** de acordo com o **estado de espírito do usuário** (ex.: "tô apaixonado", "tô triste").  
 
 A ideia é mostrar na prática como aplicar **tratamento de dados**, **processamento de linguagem natural (NLP)** e **automação** em um problema divertido e acessível, mas que reflete cenários reais de **sistemas de recomendação** usados em empresas (Netflix, Spotify, e-commerce, etc).
 
