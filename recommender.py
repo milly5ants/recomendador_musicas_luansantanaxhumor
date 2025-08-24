@@ -12,7 +12,7 @@ nltk.download('stopwords')
 stopwords_pt = stopwords.words('portuguese')
 
 # --- Ler CSV ---
-df = pd.read_csv("data/processed/musicas_limpa.csv", encoding="utf-8")
+df = pd.read_csv("musicas_limpa.csv", encoding="utf-8")
 
 # --- TF-IDF ---
 vectorizer = TfidfVectorizer(stop_words=stopwords_pt)
@@ -49,3 +49,4 @@ if st.button("🎯 Recomendar"):
     resultado = recomendar(humor_usuario, df, vectorizer, X)
     st.subheader(f"🎵 Top {len(resultado)} músicas para '{humor_usuario}'")
     st.dataframe(resultado.reset_index(drop=True))
+
