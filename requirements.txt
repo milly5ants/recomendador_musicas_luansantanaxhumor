@@ -1,0 +1,26 @@
+# ====== Utilitários ======
+pandas
+numpy
+tqdm
+
+# ====== Web Scraping ======
+requests
+beautifulsoup4
+
+# ====== NLP ======
+nltk
+spacy
+
+# ====== Machine Learning ======
+scikit-learn
+
+# ====== Visualização ======
+matplotlib
+seaborn
+wordcloud
+
+# ====== App / Deploy ======
+streamlit
+
+# ====== Bot (opcional) ======
+python-telegram-bot
